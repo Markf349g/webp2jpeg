@@ -1,21 +1,14 @@
-## 🛠️ Developer Note
+🖼️ WebP ➜ JPEG Converter – Effortless CLI Tool with Drag & Drop Magic
 
-> **⚠️ This tool is currently in active development.**  
-> The final release will include enhancements and remove this message.
+A lightweight and cross-platform command-line tool written in **pure Go** for converting `.webp` images to `.jpeg`. Built to simplify workflows where `.webp` is unsupported (e.g., Microsoft Office tools like Excel, Word, PowerPoint).
 
----
-
-🖼️ WebP ➜ JPG Converter – Effortless CLI Tool with Drag & Drop Magic
-
-A lightweight and cross-platform command-line tool written in **pure Go** for converting `.webp` images to `.jpg`. Built to simplify workflows where `.webp` is unsupported (e.g., Microsoft Office tools like Excel, Word, PowerPoint).
-
-Just **drag & drop files onto the executable**, and it will output converted `.jpg` images to the **same folder**.
+Just **drag & drop files onto the executable**, and it will output converted `.jpeg` images to the **same folder**.
 
 ---
 
 ## ⚙️ Features
 
-- 🔄 Converts `.webp` to `.jpg` with a single drag-drop
+- 🔄 Converts `.webp` to `.jpeg` with a single drag-drop
 - 🧼 No dependencies – just a single statically compiled Go binary
 - 🌐 Cross-platform: works on Windows, macOS, Linux
 - 🪄 Perfect for quick image fixes before document embedding
@@ -27,10 +20,10 @@ Just **drag & drop files onto the executable**, and it will output converted `.j
 
 Example usage from CLI
 ```bash
-webp2jpg ./image1.webp ./photo2.webp
+webp2jpeg ./image1.webp ./photo2.webp
 ```
 
-Or simply drag your `.webp` files onto the `webp2jpg` executable — converted `.jpg`s will appear next to the originals.
+Or simply drag your `.webp` files onto the `webp2jpg` executable — converted `.jpeg`s will appear next to the originals.
 
 ---
 

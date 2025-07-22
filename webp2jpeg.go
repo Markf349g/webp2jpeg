@@ -10,6 +10,10 @@ import (
 )
 
 func main() {
+	if len(os.Args) == 1 {
+		fmt.Println("No Arguments")
+		os.Exit(1)
+	}
 	for index, fileName := range os.Args {
 		if index != 0 {
 			fileInfo, err := os.Stat(fileName)
