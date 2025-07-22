@@ -27,9 +27,8 @@ Or simply drag your `.webp` files onto the `webp2jpg` executable — converted `
 
 ---
 
-## 📦 Installation
+## ▶️ How to Run
 
-1. [Download the latest build](https://github.com/Markf349g/webp2jpg/releases)
 2. Make the file executable (Linux/macOS):  
    ```bash
    chmod +x webp2jpg
