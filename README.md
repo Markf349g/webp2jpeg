@@ -1,4 +1,4 @@
-🖼️ WebP ➜ JPEG Converter – Effortless CLI Tool with Drag & Drop Magic
+# 🖼️ WebP ➜ JPEG Converter – Effortless CLI Tool with Drag & Drop Magic
 
 A lightweight and cross-platform command-line tool written in **pure Go** for converting `.webp` images to `.jpeg`. Built to simplify workflows where `.webp` is unsupported (e.g., Microsoft Office tools like Excel, Word, PowerPoint).
 
